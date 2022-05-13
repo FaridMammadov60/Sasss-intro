@@ -70,3 +70,90 @@ header {
         }
     }
 }
+
+main {
+
+    .container {
+        padding-top: 7%;
+
+        .row {
+
+            .icon-backgroun {
+                color: white;
+                background-color: rgb(38, 124, 251) !important;
+            }
+        }
+    }
+
+    .content-teo {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-top: 7%;
+        padding-bottom: 3%;
+        background-color: rgb(248, 249, 250);
+
+        .content-teo-div1 {
+            width: 27%;
+        }
+
+        .content-teo-div2 {
+            font-size: 1.5rem !important;
+            width: 46%;
+
+            p {
+                text-align: center;
+            }
+        }
+
+        .content-teo-div3 {
+            width: 27%;
+        }
+    }
+
+    .content-blog {
+        padding-top: 7%;
+
+        .content-blog-form {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+
+            .content-blog-form1{
+                width: 28%;
+            }
+            .content-blog-form2{
+                width: 46%;
+
+                p,h2{
+                    text-align: center;
+                }
+            }
+        }
+
+        .content-blog-div{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            padding-left: 5%;
+            padding-right: 5%;
+            
+            .content-blog-div-big{
+                width: 28%;
+                background-color: aqua;
+            }
+            .content-blog-div-small{
+                width: 5%;                
+            }
+        }
+        .blog-from-copy{
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        .blog-from-footer{
+            padding-left: 8% !important;
+            padding-right: 8% !important;
+        }
+    }
+}

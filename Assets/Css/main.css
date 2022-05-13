@@ -71,4 +71,97 @@ header .contents .contents-right div p {
   color: #9b9d9e;
   font-size: 30px;
 }
+
+main .container {
+  padding-top: 7%;
+}
+
+main .container .row .icon-backgroun {
+  color: white;
+  background-color: #267cfb !important;
+}
+
+main .content-teo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  padding-top: 7%;
+  padding-bottom: 3%;
+  background-color: #f8f9fa;
+}
+
+main .content-teo .content-teo-div1 {
+  width: 27%;
+}
+
+main .content-teo .content-teo-div2 {
+  font-size: 1.5rem !important;
+  width: 46%;
+}
+
+main .content-teo .content-teo-div2 p {
+  text-align: center;
+}
+
+main .content-teo .content-teo-div3 {
+  width: 27%;
+}
+
+main .content-blog {
+  padding-top: 7%;
+}
+
+main .content-blog .content-blog-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+main .content-blog .content-blog-form .content-blog-form1 {
+  width: 28%;
+}
+
+main .content-blog .content-blog-form .content-blog-form2 {
+  width: 46%;
+}
+
+main .content-blog .content-blog-form .content-blog-form2 p, main .content-blog .content-blog-form .content-blog-form2 h2 {
+  text-align: center;
+}
+
+main .content-blog .content-blog-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+main .content-blog .content-blog-div .content-blog-div-big {
+  width: 28%;
+  background-color: aqua;
+}
+
+main .content-blog .content-blog-div .content-blog-div-small {
+  width: 5%;
+}
+
+main .content-blog .blog-from-copy {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+main .content-blog .blog-from-footer {
+  padding-left: 8% !important;
+  padding-right: 8% !important;
+}
 /*# sourceMappingURL=main.css.map */
